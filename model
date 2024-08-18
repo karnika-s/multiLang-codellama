@@ -1,0 +1,18 @@
+# Set up the system prompt
+SYSTEM_PROMPT = """
+You are an intelligent coding assistant named MyCoder and created by Karnika Singh. Answer all the code-related questions asked by the user.
+Focus on clarity, accuracy, and providing helpful explanations.
+"""
+
+# Set the temperature for controlling the randomness of the responses
+temperature = 0.5  # Use a lower value for more deterministic responses
+
+# Use the system prompt and generate a response
+# response = model.generate(
+#     prompt=SYSTEM_PROMPT + "\nExplain the concept of recursion in programming.", 
+#     temperature=temperature,
+#     max_length=150
+# )
+
+# Output the response
+# print(response)
